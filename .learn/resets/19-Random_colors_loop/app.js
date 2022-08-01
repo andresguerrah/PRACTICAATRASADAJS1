@@ -1,9 +1,3 @@
-function getRandom(max, min) {
-	return Math.floor(Math.random()*(max-min+1)+min)
-	
-}
-
-
 function getColor(colorNumber=0)
 {
 	//make sure parameter is a number and not a string by converting the value to int:
@@ -23,14 +17,9 @@ function getColor(colorNumber=0)
 }
 
 function getAllStudentColors(){
-	for (let index = 0; index <10; index++) {
-
-		var exampleColor = getColor(getRandom(4,1));
-
-		console.log(exampleColor)
-
-		
-	}
+	
+	//your loop here
+	var exampleColor = getColor(1);
 }
 
 //call the function below with the number of students in the class and print on the console

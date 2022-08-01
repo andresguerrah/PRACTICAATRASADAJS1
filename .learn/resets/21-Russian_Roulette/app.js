@@ -9,13 +9,6 @@ const spinChamber = () => {
 
 // Remove the // below and complete the commented lines
 const fireGun = (bulletPosition) => {
-   if (firePosition == bulletPosition) {
-    return "You're dead!"
-    
-   }
-    else {
-        return "Keep playing! :)"
-    }
     // if (...) return ("You're dead!");
     // else return ("Keep playing!");
 };
